@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Peakverse Publisher</title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    // Hands the Instagram authorization back to Peakverse Publisher running on this computer.
+    location.replace("http://127.0.0.1:8765/api/publish/callback/instagram_reels" + location.search);
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Connecting…</h1>
+    <p>If nothing happens, make sure Peakverse Publisher is open on this computer and try again.</p>
+  </div>
+</body>
+</html>
